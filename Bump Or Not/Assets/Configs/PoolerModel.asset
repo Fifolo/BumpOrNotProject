@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3faed5a10f56d478527b60a86a72ae, type: 3}
+  m_Name: PoolerModel
+  m_EditorClassIdentifier: 
+  obstaclePrefabs:
+  - {fileID: 4990636463127796840, guid: 4cdc6a4023d59c54c8f269401500a2fc, type: 3}
+  - {fileID: 4990636463127796840, guid: 20bdf8abd1b31dc4a85aefbca29d2705, type: 3}
+  - {fileID: 4990636463127796840, guid: 7c80a70c2fbdf5949bb452045e082104, type: 3}
+  - {fileID: 4990636463127796840, guid: 2658ba96a4352694096cd52c8e4773d0, type: 3}
+  amountPerObstacle: 10
+  collectablesPrefabs:
+  - {fileID: 2922182880750202885, guid: ea45dc0615a5aa34e82ace3e58310f93, type: 3}
+  - {fileID: 5705639173426447450, guid: 269a2d05cc532d245aa27241b0f93cc1, type: 3}
+  - {fileID: 3650516817572365536, guid: 84c886fb9ed6dff4491931f086853f2a, type: 3}
+  amountPerCollectable: 5
